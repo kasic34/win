@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>Тема 1 Урок 8</title>
+        <meta http-equiv="Content-Type" charset="text/html; UTF-8">
+        <script>
+            "use strict";
+            let bool_1 = (true);
+            if (bool_1 == true) {
+                console.log("Я мужщина");
+            } else {
+                console.log("Я женщина");
+            }
+
+            let age = 4;
+            if (age < 18) {
+                console.log("У меня юный возраст");
+            } else if (age >= 18 && age <= 30) {
+                console.log("Я молодой");
+            } else if (age >= 31 && age <= 50) {
+                console.log("Я взрослый");
+            } else if (age >= 51 && age <= 80) {
+                console.log("Я зрелый");
+            } else {
+                console.log("Я старый");
+            }
+
+            let resault = (age < 18)? "У меня юный возраст" : (age >= 18 && age <= 30)? "Я молодой" : (age >= 31 && age <= 50)? "Я взрослый" : (age >= 51 && age <= 80)? "Я зрелый" : "Я старый";
+            console.log(resault);
+       </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
